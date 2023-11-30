@@ -1,0 +1,47 @@
+styles.css
+/* Add your custom styles here */
+
+body {
+  background-color: #167be1;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+header {
+  color: #007bff;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+img {
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+button {
+  background-color: #28a745;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #218838;
+}
